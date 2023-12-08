@@ -1,0 +1,16 @@
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #4CAF50; /* Pastel green background */
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  

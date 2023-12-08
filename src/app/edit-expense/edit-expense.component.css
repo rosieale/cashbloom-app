@@ -1,0 +1,21 @@
+.edit-expense {
+    margin: 20px;
+}
+
+.edit-expense form {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-expense form label {
+    margin-top: 10px;
+}
+
+.edit-expense form button {
+    margin-top: 20px;
+    background-color: #4CAF50; /* Pastel green color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

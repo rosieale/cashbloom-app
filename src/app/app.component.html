@@ -1,0 +1,13 @@
+<nav>
+  <ul>
+    <li><a routerLink="/dashboard">Dashboard</a></li>
+    <li><a routerLink="/expenses">Expenses List</a></li>
+    <li><a routerLink="/edit-expense">Add Expense</a></li>
+    <!-- Additional navigation links can go here -->
+    <!-- Add this inside your navigation bar or header -->
+    <button (click)="logout()">Logout</button>
+
+  </ul>
+</nav>
+
+<router-outlet></router-outlet>
